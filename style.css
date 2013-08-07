@@ -1,0 +1,23 @@
+#background{
+	background-image: url('assets/Background/backgroundColor.png');
+	background-repeat: repeat;
+	width: 600px;
+	height: 400px;
+	position: absolute;
+}
+
+#backgroundCanvas{
+	position: absolute;
+}
+
+#demoCanvas{
+	position: absolute;
+	background-color: #48f;
+}
+
+#hud{
+	color: white;
+	position: relative;
+	background-color: #333;
+	width: 600px;
+}
