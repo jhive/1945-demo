@@ -14,7 +14,7 @@ function(Ash, BGTileNode, Position, Motion, Display){
 
 			//Fill the map with tiles
 			for(var i = 0; i < 19; i++){
-				for( var j = 0; j < 13; j++){
+				for( var j = 0; j < 19; j++){
 					var position = new Position(0, 0, 0, 16);
 					var motion = new Motion(0, 60, 0);
 					var entity = this.creator.createBGTile(position, motion);
@@ -28,7 +28,7 @@ function(Ash, BGTileNode, Position, Motion, Display){
 		update:function(time){									
 			for(var node = this.nodes.head; node; node = node.next)
 			{				
-				if(node.position.position.y > 400){
+				if(node.position.position.y > 600){
 					node.position.position.y = 0;
 				}				
 			}					
